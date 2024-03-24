@@ -1,0 +1,4 @@
+﻿A,AAAA,CNAME,MX,NS,PTR ,SOA,SRV,TXT,DNSSEC
+192.0.2.1,2001:0db8:85a3:0000:0000:8a2e:0370:7334,www.example.com,mail.example.com,ns1.example.com,example.com,ns1.example.com hostmaster.example.com 2024032201 3600 1800 1209600 3600,0 5 5060 sipserver.example.com,v=spf1 mx ~all,signed
+192.0.2.2,2001:0db8:85a3:0000:0000:8a2e:0370:7335,www.example.com,mail.example.com,ns1.example.com,example.com,ns1.example.com hostmaster.example.com 2024032201 3600 1800 1209600 3601,1 5 5060 sipserver.example.com,v=spf1 mx ~all,signed
+192.0.2.3,2001:0db8:85a3:0000:0000:8a2e:0370:7336,www.example.com,mail.example.com,ns1.example.com,example.com,ns1.example.com hostmaster.example.com 2024032201 3600 1800 1209600 3602,2 5 5060 sipserver.example.com,v=spf1 mx ~all,signed
